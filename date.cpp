@@ -4,7 +4,7 @@
 //#define _CRT_SECURE_NO_WARNINGS
 
 //'localtime': This function or variable may be unsafe.Consider using localtime_s instead.To disable deprecation, use _CRT_SECURE_NO_WARNINGS.See online help for details. 
-// *** Hata veriyor ama biz localtime's kullanacaðýz, C++14'te localtime_s yoktu. ***
+
 void Date::setDefaultDate()
 {
     time_t t = time(0);
